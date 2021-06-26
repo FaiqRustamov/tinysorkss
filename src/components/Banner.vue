@@ -1,13 +1,13 @@
 <template>
     <div class="container-fluid banner">
-<div class="row  " >
-<div class="col-md-6">
-</div>
-<div class="col-md-6">
-<h1 class="title">Tinyworks</h1>
-<p class="text-about">startup-ının məqsədi əl işləri ilə məşğul olan şəxsləri vahid bir platformada cəmləməkdir.</p>
-</div>
-</div>
+        <div class="row  " >
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
+        <h1 class="title">Tinyworks</h1>
+        <p class="text-about">startup-ının məqsədi əl işləri ilə məşğul olan şəxsləri vahid bir platformada cəmləməkdir.</p>
+        </div>
+        </div>
     </div>
 </template>
 
@@ -20,8 +20,9 @@
 .banner{
     background-image: url('../assets/banner.png');
     background-repeat: no-repeat;
-    background-size:initial;
-    height: 600px;
+    background-size:100% 100%;
+    height:500px;
+    margin-bottom:90px;
 }
 .title{
     margin-top:30px;
