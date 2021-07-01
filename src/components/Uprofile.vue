@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+<div class="container">
 <div class="row">
 <h2>Hesabım</h2>
 <p class="name">Ad:<span>Merdan</span></p>

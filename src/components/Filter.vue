@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="filterBg">
     <div class="container">
       <div class="col-12">
         <div class="input-group mb-3">
@@ -44,5 +44,9 @@
   cursor: pointer;
   background: #9f9df4 !important;
   border: 1px solid #9f9df4;
+}
+.filterBg{
+  background-color:#EEBFFF;
+  padding:40px 0;
 }
 </style>

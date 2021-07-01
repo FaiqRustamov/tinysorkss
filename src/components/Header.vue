@@ -27,7 +27,7 @@
             <a class="nav-link" href="#"><router-link to="/contact" tag="button">Bizimlə əlaqə </router-link></a>
             </li>
              <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/userprofile" tag="button">Profile </router-link></a>
+            <a class="nav-link" href="#"><router-link to="/user-profile" tag="button">Profile </router-link></a>
             </li>
           </ul>
           <div class="mine-button mine-button-bg"><a href=""><router-link to="/login" tag="button">Daxil Ol</router-link></a></div>

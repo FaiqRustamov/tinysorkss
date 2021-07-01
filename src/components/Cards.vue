@@ -19,7 +19,7 @@ export default {
     data(){
         return {
      items: {
-        1: {id: 1, img: '../assets/Rectangle 76.png',name:"Taxta Fil  - 25 Azn"},
+        1: {id: 1, img: './Rectangle 76.png',name:"Taxta Fil  - 25 Azn"},
         2: {id: 2, img: 'item1',name:"Oyuncaq Zürafə  - 12 Azn"},
         3: {id: 3,img: 'item1',name:"Taxta Fil  - 25 Azn  "},
         4: {id: 4, img: 'item1',name:"Oyuncaq Zürafə  - 12 Azn  "},

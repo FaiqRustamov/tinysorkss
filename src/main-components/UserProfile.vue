@@ -1,7 +1,7 @@
 <template>
 <div>
   <Header/>
-<Uprofile/>
+  <Uprofile/>
   <Footer/>
 </div>
 </template>

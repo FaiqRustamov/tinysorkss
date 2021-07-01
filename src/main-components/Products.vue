@@ -1,12 +1,25 @@
 <template>
   <div>
-  ddddddddddddddddddddd
+  <Header/>
+  <Filter/>
+  <Cards/>
+  <br><br><br>
+  <Footer/>
   </div>
 </template>
 
 <script>
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Cards from '../components/Cards'
+import Filter from '../components/Filter'
 export default {
-
+  components:{
+    Header,
+    Footer,
+    Cards,
+    Filter
+  }
 }
 </script>
 
