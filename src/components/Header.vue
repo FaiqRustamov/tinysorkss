@@ -95,5 +95,9 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-
+@media only screen and (max-width: 375px) {
+ .mine-button a{
+     font-size:14px;
+ }
+}
 </style>

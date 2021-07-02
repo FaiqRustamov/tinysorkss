@@ -1,9 +1,9 @@
 <template>
     <div class="container-fluid banner">
         <div class="row  " >
-        <div class="col-md-6">
+        <div class="col-6">
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
         <h1 class="title">Tinyworks</h1>
         <p class="text-about">startup-ının məqsədi əl işləri ilə məşğul olan şəxsləri vahid bir platformada cəmləməkdir.</p>
         </div>
@@ -38,4 +38,22 @@
     text-align: left;
     font-size: 36px;
 }
+@media only screen and (max-width: 600px) {
+  .title{
+      font-size: 24px;
+  }
+  .text-about{
+      font-size: 30px;
+  }
+  .navbar-light .navbar-toggler {
+    color: purple !important;
+   
+}
+}
+@media only screen and (max-width: 375px) {
+.text-about{
+    font-size: 21px;
+}
+}
+
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-<div class="row">
+<div class="row first">
 <h2 class="head">
     Mağazalar
 </h2>
@@ -26,30 +26,30 @@
 </div>
 </div>
 <div class="row">
-<div class="col-md-3">
+<div class="col-md-3 about">
 <img src="../assets/one.png" alt="">
 <p class="desc">Əl işlərini dünya bazarına çıxartmaq
 </p>
 </div>
-<div class="col-md-3">
+<div class="col-md-3 about">
 <img src="../assets/two.png" alt="">
 <p class="desc">Əl işlərinin keyfiyyətli olması
 
 </p>
 </div>
-<div class="col-md-3">
+<div class="col-md-3 about">
 <img src="../assets/three.png" alt="">
 <p class="desc">Əl işlərini dünya bazarına çıxartmaq
 </p>
 </div>
-<div class="col-md-3">
+<div class="col-md-3 about">
 <img src="../assets/four.png" alt="">
 <p class="desc">Gəlirlərin artırılması
 
 </p>
 </div>
 </div>
-<img src="../assets/mag.png" alt="">
+<img class="pic" src="../assets/mag.png" alt="">
     </div>
 </template>
 
@@ -71,5 +71,21 @@
 }
 .store-name{
     margin-top:10px;
+}
+.pic{
+    width: 100%;
+    height: auto;
+}
+.store img{
+    width: 100%;
+    height: 100%;
+}
+.about img{
+      width: 100%;
+    height: auto;
+}
+.first{
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 </style>

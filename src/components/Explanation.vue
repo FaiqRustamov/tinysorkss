@@ -11,8 +11,8 @@
     </div>
 
 </div>
-<div class="col-md-6">
-<img src="../assets/right.png" alt="">
+<div class="col-md-6" style="display:block;">
+<img class="right-pic" src="../assets/right.png" alt="">
 </div>
 </div>
     </div>
@@ -66,5 +66,14 @@ button{
 }
 .desc{
     margin: 40px;
+}
+.right-pic{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 1430px) {
+ .desc{
+     margin-top:150px;
+ }
 }
 </style>
